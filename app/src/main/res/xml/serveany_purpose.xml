@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jointData>
+
+    <serve>
+        <option value="gf_date" >
+Meet a Date
+        </option>
+        <option value="gf_bus" >
+Meet for Business
+        </option>
+        <option value="gf_friend" >
+Meet a Friend
+        </option>
+        <option value="gf_solo" >
+Fly a Solo
+        </option>
+    </serve>
+
+</jointData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="style">
+        <item>Coffee</item>
+        <item>Cocktails</item>
+        <item>Business</item>
+        <item>Casual Dining</item>
+        <item>Romantic</item>
+        <item>Fine Dining</item>
+    </string-array>
+
+</resources>

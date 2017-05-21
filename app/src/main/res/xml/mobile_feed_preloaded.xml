@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<joints>
+
+    <record>
+        <id>
+6456
+        </id>
+
+        <name>
+710 Grill
+        </name>
+
+        <addr>
+710 Garnet Avenue
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+American
+        </cuis>
+
+        <ph>
+858-483-7844
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+2
+        </liq>
+
+        <serv>
+0*0*1*1*0*1*0*0
+        </serv>
+
+        <latlong>
+32.7963*-117.2565
+        </latlong>
+
+        <hrs>
+04:00 PM-09:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+710bc.com
+        </url>
+    </record>
+    <record>
+        <id>
+3431
+        </id>
+
+        <name>
+Bareback Grill (Pacific Beach)
+        </name>
+
+        <addr>
+4640 Mission Blvd
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Bar and Grill
+        </cuis>
+
+        <ph>
+858-274-7117
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+2
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7982*-117.2560
+        </latlong>
+
+        <hrs>
+11:00 AM-11:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+barebackgrill.com
+        </url>
+    </record>
+    <record>
+        <id>
+6453
+        </id>
+
+        <name>
+Basil Thai Kitchen
+        </name>
+
+        <addr>
+1315 Garnet Avenue
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Thai
+        </cuis>
+
+        <ph>
+858-270-8424
+        </ph>
+
+        <price>
+1
+        </price>
+
+        <liq>
+0
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7986*-117.2460
+        </latlong>
+
+        <hrs>
+11:00 AM-10:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+basilthaisd.com
+        </url>
+    </record>
+    <record>
+        <id>
+3415
+        </id>
+
+        <name>
+Big Kahunas
+        </name>
+
+        <addr>
+3780 Ingraham St
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+American
+        </cuis>
+
+        <ph>
+858-270-9200
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+1
+        </liq>
+
+        <serv>
+1*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7883*-117.2375
+        </latlong>
+
+        <hrs>
+11:00 AM-09:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+bigkahunaspb.com
+        </url>
+    </record>
+    <record>
+        <id>
+3464
+        </id>
+
+        <name>
+Broken Yolk Cafe
+        </name>
+
+        <addr>
+1851 Garnet Ave
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Cafe
+        </cuis>
+
+        <ph>
+858-270-0045
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+1
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.8006*-117.2361
+        </latlong>
+
+        <hrs>
+06:00 AM-03:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+thebrokenyolkcafe.com
+        </url>
+    </record>
+    <record>
+        <id>
+3374
+        </id>
+
+        <name>
+Bubs Dive Bar and Grill
+        </name>
+
+        <addr>
+1030 Garnet Ave
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Bar and Grill
+        </cuis>
+
+        <ph>
+858-270-7269
+        </ph>
+
+        <price>
+1
+        </price>
+
+        <liq>
+2
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7974*-117.2512
+        </latlong>
+
+        <hrs>
+11:00 AM-02:00 AM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+bubsdive.com
+        </url>
+    </record>
+    <record>
+        <id>
+3408
+        </id>
+
+        <name>
+Cafe 976
+        </name>
+
+        <addr>
+976 Felspar St
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Cafe
+        </cuis>
+
+        <ph>
+858-272-0976
+        </ph>
+
+        <price>
+1
+        </price>
+
+        <liq>
+0
+        </liq>
+
+        <serv>
+0*1*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7982*-117.2526
+        </latlong>
+
+        <hrs>
+07:00 AM-09:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+cafe976.com
+        </url>
+    </record>
+    <record>
+        <id>
+3463
+        </id>
+
+        <name>
+Cafe Athena
+        </name>
+
+        <addr>
+1846 Garnet Ave
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Greek
+        </cuis>
+
+        <ph>
+858-274-1140
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+1
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.8009*-117.2363
+        </latlong>
+
+        <hrs>
+11:00 AM-09:30 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+cafeathena.com
+        </url>
+    </record>
+    <record>
+        <id>
+3461
+        </id>
+
+        <name>
+Cafe Joie
+        </name>
+
+        <addr>
+3231 Mission Blvd
+        </addr>
+
+        <city>
+Mission Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Cafe
+        </cuis>
+
+        <ph>
+858-488-5900
+        </ph>
+
+        <price>
+1
+        </price>
+
+        <liq>
+0
+        </liq>
+
+        <serv>
+1*1*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7727*-117.2513
+        </latlong>
+
+        <hrs>
+08:00 AM-06:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+cafejoie.com
+        </url>
+    </record>
+    <record>
+        <id>
+3533
+        </id>
+
+        <name>
+Caffe Bella Italia
+        </name>
+
+        <addr>
+1525 Garnet Ave
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Italian
+        </cuis>
+
+        <ph>
+858-273-1224
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+1
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7994*-117.2422
+        </latlong>
+
+        <hrs>
+04:30 PM-10:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+caffebellaitalia.com
+        </url>
+
+        <coupons>
+            <coupon>
+                <coup_id>
+45
+                </coup_id>
+
+                <coup_title>
+FREE
+                </coup_title>
+
+                <coup_tagline>
+Free Bruschetta Appetizer
+                </coup_tagline>
+
+                <coup_msg>
+w/ purchase of two or more entrees
+                </coup_msg>
+
+                <coup_fineprint>
+not valid on holidays @ Caffe Bella Italia
+                </coup_fineprint>
+
+                <coup_days>
+0123456
+                </coup_days>
+
+                <coup_start>
+2008-12-10
+                </coup_start>
+
+                <coup_end>
+2010-12-31
+                </coup_end>
+
+                <coup_img>
+coupons/3533-45.png
+                </coup_img>
+            </coupon>
+            <coupon>
+                <coup_id>
+46
+                </coup_id>
+
+                <coup_title>
+FREE
+                </coup_title>
+
+                <coup_tagline>
+Free Tiramisu Dessert
+                </coup_tagline>
+
+                <coup_msg>
+w/ purchase of two or more entrees
+                </coup_msg>
+
+                <coup_fineprint>
+not valid on holidays @ Caffe Bella Italia
+                </coup_fineprint>
+
+                <coup_days>
+0123456
+                </coup_days>
+
+                <coup_start>
+2008-12-10
+                </coup_start>
+
+                <coup_end>
+2010-12-31
+                </coup_end>
+
+                <coup_img>
+coupons/3533-46.png
+                </coup_img>
+            </coupon>
+        </coupons>
+    </record>
+    <record>
+        <id>
+6750
+        </id>
+
+        <name>
+Chateau Orleans
+        </name>
+
+        <addr>
+926 Turquoise Street
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Cajun
+        </cuis>
+
+        <ph>
+858-488-6744
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+1
+        </liq>
+
+        <serv>
+0*0*0*1*0*0*0*0
+        </serv>
+
+        <latlong>
+32.8092*-117.2565
+        </latlong>
+
+        <hrs>
+06:00 PM-10:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+chateauorleans.com
+        </url>
+    </record>
+    <record>
+        <id>
+3548
+        </id>
+
+        <name>
+Costa Brava Restaurante
+        </name>
+
+        <addr>
+1653 Garnet Ave
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Spanish
+        </cuis>
+
+        <ph>
+858-273-1218
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+2
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.8000*-117.2398
+        </latlong>
+
+        <hrs>
+11:00 AM-12:00 AM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+costabravasd.com
+        </url>
+    </record>
+    <record>
+        <id>
+3424
+        </id>
+
+        <name>
+EZ Js Sandwiches
+        </name>
+
+        <addr>
+1088 Garnet Ave
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Deli
+        </cuis>
+
+        <ph>
+858-483-0123
+        </ph>
+
+        <price>
+1
+        </price>
+
+        <liq>
+0
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7977*-117.2501
+        </latlong>
+
+        <hrs>
+11:00 AM-09:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+ez-js.com
+        </url>
+    </record>
+    <record>
+        <id>
+3430
+        </id>
+
+        <name>
+Fatburger
+        </name>
+
+        <addr>
+4516 Mission Blvd Ste D
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Hamburger
+        </cuis>
+
+        <ph>
+858-581-1955
+        </ph>
+
+        <price>
+1
+        </price>
+
+        <liq>
+0
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7967*-117.2555
+        </latlong>
+
+        <hrs>
+10:30 AM-10:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+fatburger.com
+        </url>
+    </record>
+    <record>
+        <id>
+3456
+        </id>
+
+        <name>
+Filippis Pizza Grotto
+        </name>
+
+        <addr>
+962 Garnet Ave
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Pizza
+        </cuis>
+
+        <ph>
+858-483-6222
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+1
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7972*-117.2525
+        </latlong>
+
+        <hrs>
+11:00 AM-11:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+realcheesepizza.com
+        </url>
+    </record>
+    <record>
+        <id>
+3493
+        </id>
+
+        <name>
+Freds Mexican Cafe
+        </name>
+
+        <addr>
+1165 Garnet Ave
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Mexican
+        </cuis>
+
+        <ph>
+858-483-8226
+        </ph>
+
+        <price>
+0
+        </price>
+
+        <liq>
+2
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7980*-117.2488
+        </latlong>
+
+        <hrs>
+11:30 AM-12:00 AM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+fredsmexicancafe.com
+        </url>
+    </record>
+    <record>
+        <id>
+3513
+        </id>
+
+        <name>
+Gaglione Bros Famous Steaks &amp; Subs
+        </name>
+
+        <addr>
+728 Ventura Place
+        </addr>
+
+        <city>
+Mission Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Deli
+        </cuis>
+
+        <ph>
+858-488-1690
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+0
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7720*-117.2523
+        </latlong>
+
+        <hrs>
+11:00 AM-09:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+gaglionebros.com
+        </url>
+    </record>
+    <record>
+        <id>
+3494
+        </id>
+
+        <name>
+Gringos Cantina
+        </name>
+
+        <addr>
+4474 Mission Blvd
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Mexican
+        </cuis>
+
+        <ph>
+858-490-2877
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+2
+        </liq>
+
+        <serv>
+0*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7960*-117.2555
+        </latlong>
+
+        <hrs>
+11:00 AM-10:00 PM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+gringoscantina.com
+        </url>
+    </record>
+    <record>
+        <id>
+3516
+        </id>
+
+        <name>
+Guava Beach
+        </name>
+
+        <addr>
+3714 Mission Blvd
+        </addr>
+
+        <city>
+Mission Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Bar and Grill
+        </cuis>
+
+        <ph>
+858-488-6688
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+2
+        </liq>
+
+        <serv>
+0*1*1*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7828*-117.2525
+        </latlong>
+
+        <hrs>
+11:30 AM-02:00 AM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+guava-beach.com
+        </url>
+    </record>
+    <record>
+        <id>
+3420
+        </id>
+
+        <name>
+Hoboken Pizza
+        </name>
+
+        <addr>
+1459 Garnet Ave
+        </addr>
+
+        <city>
+Pacific Beach
+        </city>
+
+        <st>
+CA
+        </st>
+
+        <zip>
+92109
+        </zip>
+
+        <cuis>
+Pizza
+        </cuis>
+
+        <ph>
+858-270-7766
+        </ph>
+
+        <price>
+2
+        </price>
+
+        <liq>
+1
+        </liq>
+
+        <serv>
+1*0*0*0*0*0*0*0
+        </serv>
+
+        <latlong>
+32.7992*-117.2434
+        </latlong>
+
+        <hrs>
+12:00 AM-12:00 AM
+        </hrs>
+
+        <dist>
+reguires post of user's latititude/longitude
+        </dist>
+
+        <url>
+hobokenpizza.com
+        </url>
+    </record>
+
+    <nav>
+        <page>
+1
+        </page>
+
+        <navprev>
+no
+        </navprev>
+
+        <navnext>
+yes
+        </navnext>
+
+        <totalpages>
+6
+        </totalpages>
+
+        <rows>
+117
+        </rows>
+    </nav>
+
+</joints>

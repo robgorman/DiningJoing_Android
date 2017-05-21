@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jointData>
+
+    <feat>
+        <option
+            name=""
+            icon="" >
+Any Feature
+        </option>
+        <option
+            name="feat[sports]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/tv.gif" >
+Sports TV
+        </option>
+        <option
+            name="feat[inet]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/nt.gif" >
+Wireless Internet
+        </option>
+        <option
+            name="feat[live]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/lv.gif" >
+Live Music
+        </option>
+        <option
+            name="feat[dance]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/dn.gif" >
+Dancing
+        </option>
+        <option
+            name="feat[karaoke]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/nt.gif" >
+Karaoke
+        </option>
+        <option
+            name="feat[deliver]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/dl.gif" >
+Will Deliver
+        </option>
+        <option
+            name="feat[cater]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/ct.gif" >
+Catering
+        </option>
+        <option
+            name="feat[banquet]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/bq.gif" >
+Banquet Room
+        </option>
+    </feat>
+
+</jointData>

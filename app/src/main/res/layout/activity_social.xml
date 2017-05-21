@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.ranchosoftware.diningjoint.SocialActivity"
+                android:background="@drawable/background_skyline"
+              android:orientation="vertical">
+
+    <TextView
+        android:text="@string/connect_with_dj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/DJMaroon"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibInstagram"
+                android:src="@drawable/button_instagram_statelist"
+                android:background="@null"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="10dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibFacebook"
+                android:src="@drawable/button_facebook_statelist"
+                android:background="@null"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibTwitter"
+                android:src="@drawable/button_twitter_statelist"
+                android:background="@null"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="10dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibPinterest"
+                android:src="@drawable/button_pinterest_statelist"
+                android:background="@null"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibSnapChat"
+                android:src="@drawable/button_snapchat_statelist"
+                android:background="@null"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="13dp"
+                android:cropToPadding="false"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibSubscribe"
+                android:src="@drawable/button_subscribe_statelist"
+                android:background="@null"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="invisible">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibDummy1"
+                android:src="@drawable/button_instagram_statelist"
+                android:background="@null"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="10dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibDumm2"
+                android:src="@drawable/button_facebook_statelist"
+                android:background="@null"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

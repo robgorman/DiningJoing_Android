@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.sandiegorestaurantsandbars.diningjoint"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 617
+        versionName "6.7"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile files('libs/khandroid-httpclient-4.2.3.jar')
+    compile files('libs/volley.jar')
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.facebook.android:facebook-android-sdk:4.0.0'
+    compile project(':lib')
+    compile('com.twitter.sdk.android:twitter:1.6.0@aar') {
+        transitive = true;
+    }
+    compile 'com.pushwoosh:pushwoosh:+'
+
+
+}

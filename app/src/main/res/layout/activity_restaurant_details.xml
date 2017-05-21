@@ -1,0 +1,522 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.ranchosoftware.diningjoint.RestaurantDetailsActivity"
+              android:orientation="vertical"
+              android:background="@drawable/back_ground_frame_1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/graybox1"
+        android:padding="12dp"
+        android:id="@+id/ll1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="333 Pacific"
+                android:id="@+id/tvRestaurantName"
+                android:textColor="@color/Black"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/DJMaroon">
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Black">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativeLayout1"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="2dp"
+                    android:id="@+id/llSocial"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ibFacebook"
+                        android:src="@drawable/facebook"
+                        android:adjustViewBounds="true"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:baselineAlignBottom="false"
+                        android:layout_margin="2dp"
+                        android:scaleType="fitXY"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ibTwitter"
+                        android:src="@drawable/twitter_selected"
+                        android:adjustViewBounds="true"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:layout_margin="2dp"
+                        android:scaleType="fitXY"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ibInstagram"
+                        android:src="@drawable/instagram"
+                        android:adjustViewBounds="true"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:layout_margin="2dp"
+                        android:scaleType="fitXY"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/ivLogo"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_above="@+id/llSocial"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginBottom="14dp"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1"
+                android:orientation="vertical"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight=".4">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/hours"
+                        android:id="@+id/textView6"
+                        android:textColor="@color/DJMaroon"
+                        android:layout_marginRight="4dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="11:30 AM-10:30 PM"
+                        android:id="@+id/tvHours"
+                        android:textColor="@color/Black"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/best_day_label"
+                        android:id="@+id/textView8"
+                        android:textColor="@color/DJMaroon"
+                        android:layout_marginRight="4dp"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:id="@+id/ivSunday"
+                            android:src="@drawable/sunday_off"
+                            android:layout_marginRight="2dp"/>
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:id="@+id/ivMonday"
+                            android:src="@drawable/monday_off"
+                            android:layout_marginRight="2dp"/>
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:id="@+id/ivTuesday"
+                            android:src="@drawable/tuesday_off"
+                            android:layout_marginRight="2dp"/>
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:id="@+id/ivWednesday"
+                            android:src="@drawable/wednesday_off"
+                            android:layout_marginRight="2dp"/>
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:id="@+id/ivThursday"
+                            android:src="@drawable/thursday_off"
+                            android:layout_marginRight="2dp"/>
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:id="@+id/ivFriday"
+                            android:src="@drawable/friday_off"
+                            android:layout_marginRight="2dp"/>
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:id="@+id/ivSaturday"
+                            android:src="@drawable/saturday_off"
+                            android:layout_marginRight="2dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/best_dish_label"
+                        android:id="@+id/textView10"
+                        android:textColor="@color/DJMaroon"
+                        android:layout_marginRight="4dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="11:30 AM-10:30 PM"
+                        android:id="@+id/tvBestDish"
+                        android:textColor="@color/Black"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ibInvite"
+                        android:src="@drawable/button_invite_statelist"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:layout_weight="1"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageButton"
+                        android:src="@drawable/button_invite_statelist"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:layout_weight="1"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ibHappyHour"
+                        android:src="@drawable/button_happy_hour_statelist"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:layout_weight="1"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ibCoupons"
+                        android:focusableInTouchMode="false"
+                        android:src="@drawable/button_coupon_statelist"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/graybox2"
+        android:id="@+id/ll2"
+        android:layout_below="@+id/ll1"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Serves:"
+                android:id="@+id/textView7"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:textColor="@color/DJMaroon"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Steakhouse"
+                android:id="@+id/tvCuisine"
+                android:textColor="@color/Black"
+                android:layout_gravity="center"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:id="@+id/buttonMenu"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_menu_statelist"
+            android:text="MENU"
+            android:textSize="10dp"
+            android:singleLine="true"
+            android:paddingLeft="-8dp"
+            android:layout_marginTop="-2dp"
+            android:textColor="@color/White"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llCall"
+        android:layout_below="@+id/ll2"
+        android:background="@drawable/graybox2"
+        android:padding="12dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Phone:"
+                android:id="@+id/textView21"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:textColor="@color/DJMaroon"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Steakhouse"
+                android:id="@+id/tvPhoneNumber"
+                android:textColor="@color/Black"
+                android:layout_gravity="center"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/bmphone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:textSize="12dp"
+            android:paddingLeft="-8dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/button_red_arrow_statelist"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llDirections"
+        android:layout_below="@+id/llCall"
+        android:background="@drawable/graybox2"
+        android:padding="12dp"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Directions:"
+                android:id="@+id/textView19"
+                android:layout_gravity="top"
+                android:layout_marginLeft="6dp"
+                android:textColor="@color/DJMaroon"
+                android:singleLine="true"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Steakhouse"
+                    android:id="@+id/tvAddress1"
+                    android:textColor="@color/Black"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Steakhouse"
+                    android:id="@+id/tvAddress2"
+                    android:textColor="@color/Black"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/ImageView3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:textSize="12dp"
+            android:paddingLeft="-8dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/button_red_arrow_statelist"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llFunpix"
+        android:layout_below="@+id/llDirections"
+        android:padding="12dp"
+        android:background="@drawable/graybox2"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Social Pics:"
+            android:id="@+id/textView12"
+            android:layout_gravity="top"
+            android:layout_marginLeft="6dp"
+            android:textColor="@color/DJMaroon"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"/>
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:id="@+id/ibFunPix"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:src="@drawable/camera_button_statelist"
+            android:layout_gravity="left|center"
+            android:scaleType="fitCenter"
+            android:layout_weight="2"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jointData>
+
+    <city>
+        <option value="" >
+Any Location
+        </option>
+        <option value="1" >
+Alpine
+        </option>
+        <option value="2" >
+Bankers Hill
+        </option>
+        <option value="3" >
+Bonita
+        </option>
+        <option value="4" >
+Campo
+        </option>
+        <option value="5" >
+Cardiff
+        </option>
+        <option value="6" >
+Carlsbad
+        </option>
+        <option value="7" >
+Chula Vista
+        </option>
+        <option value="8" >
+City Heights
+        </option>
+        <option value="9" >
+Clairmont Mesa
+        </option>
+        <option value="10" >
+College Area
+        </option>
+        <option value="11" >
+Coronado
+        </option>
+        <option value="12" >
+Del Mar
+        </option>
+        <option value="13" >
+East Village
+        </option>
+        <option value="14" >
+El Cajon
+        </option>
+        <option value="15" >
+Encinitas
+        </option>
+        <option value="16" >
+Escondido
+        </option>
+        <option value="17" >
+Gaslamp
+        </option>
+        <option value="18" >
+Golden Hill
+        </option>
+        <option value="19" >
+Grantville
+        </option>
+        <option value="20" >
+Hillcrest
+        </option>
+        <option value="21" >
+Hotel Circle
+        </option>
+        <option value="22" >
+Imperial Beach
+        </option>
+        <option value="23" >
+Jamul
+        </option>
+        <option value="24" >
+Kearny Mesa
+        </option>
+        <option value="25" >
+Kensington
+        </option>
+        <option value="26" >
+La Jolla
+        </option>
+        <option value="27" >
+La Mesa
+        </option>
+        <option value="28" >
+Lakeside
+        </option>
+        <option value="29" >
+Lemon Grove 
+        </option>
+        <option value="30" >
+Leucadia
+        </option>
+        <option value="31" >
+Linda Vista
+        </option>
+        <option value="32" >
+Little Italy
+        </option>
+        <option value="33" >
+Logan Heights
+        </option>
+        <option value="34" >
+Mira Mesa
+        </option>
+        <option value="35" >
+Miramar
+        </option>
+        <option value="36" >
+Mission Beach
+        </option>
+        <option value="37" >
+Mission Gorge
+        </option>
+        <option value="38" >
+Mission Hills
+        </option>
+        <option value="39" >
+Mission Valley
+        </option>
+        <option value="40" >
+National City
+        </option>
+        <option value="41" >
+Normal Heights
+        </option>
+        <option value="42" >
+North Park
+        </option>
+        <option value="43" >
+Ocean Beach
+        </option>
+        <option value="44" >
+Oceanside
+        </option>
+        <option value="45" >
+Old Town
+        </option>
+        <option value="46" >
+Otay Mesa
+        </option>
+        <option value="47" >
+Pacific Beach
+        </option>
+        <option value="48" >
+Paradise Hills
+        </option>
+        <option value="49" >
+Pine Valley
+        </option>
+        <option value="50" >
+Point Loma
+        </option>
+        <option value="51" >
+Poway
+        </option>
+        <option value="52" >
+Ramona
+        </option>
+        <option value="53" >
+Rancho Bernardo
+        </option>
+        <option value="54" >
+Rancho Santa Fe
+        </option>
+        <option value="55" >
+Rolando
+        </option>
+        <option value="56" >
+San Carlos
+        </option>
+        <option value="57" >
+San Diego
+        </option>
+        <option value="58" >
+San Marcos
+        </option>
+        <option value="59" >
+San Ysidro
+        </option>
+        <option value="60" >
+Santee
+        </option>
+        <option value="61" >
+Scripps Ranch
+        </option>
+        <option value="62" >
+Seaport Village
+        </option>
+        <option value="63" >
+Shelter Island
+        </option>
+        <option value="64" >
+Solana Beach
+        </option>
+        <option value="65" >
+Sorrento Valley
+        </option>
+        <option value="66" >
+South Park
+        </option>
+        <option value="67" >
+Spring Valley
+        </option>
+        <option value="68" >
+Tecate
+        </option>
+        <option value="69" >
+Tierrasanta
+        </option>
+        <option value="70" >
+University City
+        </option>
+        <option value="71" >
+University Heights
+        </option>
+        <option value="72" >
+Vista
+        </option>
+    </city>
+
+    <sic_id>
+        <option value="" >
+Any Cuisine
+        </option>
+        <option value="43" >
+American
+        </option>
+        <option value="196" >
+Asian Fusion
+        </option>
+        <option value="40" >
+Bagels
+        </option>
+        <option value="2" >
+Bakery
+        </option>
+        <option value="36" >
+Bar
+        </option>
+        <option value="32" >
+Bar and Grill
+        </option>
+        <option value="12" >
+Barbecue
+        </option>
+        <option value="100" >
+Brewery
+        </option>
+        <option value="37" >
+Buffet
+        </option>
+        <option value="24" >
+Cafe
+        </option>
+        <option value="79" >
+Cajun
+        </option>
+        <option value="152" >
+Casino Restaurant
+        </option>
+        <option value="26" >
+Caterer
+        </option>
+        <option value="57" >
+Chicken
+        </option>
+        <option value="5" >
+Chinese
+        </option>
+        <option value="8" >
+Cocktail Lounge
+        </option>
+        <option value="18" >
+Coffee Shop
+        </option>
+        <option value="217" >
+Country Club
+        </option>
+        <option value="46" >
+Deli
+        </option>
+        <option value="7" >
+Diner
+        </option>
+        <option value="221" >
+Dinner Cruise
+        </option>
+        <option value="74" >
+Dinner Theater
+        </option>
+        <option value="3" >
+Doughnuts
+        </option>
+        <option value="45" >
+Ethnic
+        </option>
+        <option value="66" >
+French
+        </option>
+        <option value="19" >
+Frozen Yogurt
+        </option>
+        <option value="78" >
+German
+        </option>
+        <option value="59" >
+Greek
+        </option>
+        <option value="14" >
+Hamburger
+        </option>
+        <option value="192" >
+Hookah Lounge
+        </option>
+        <option value="123" >
+Hotel Restaurant
+        </option>
+        <option value="222" >
+Ice Cream
+        </option>
+        <option value="52" >
+Indian
+        </option>
+        <option value="6" >
+Italian
+        </option>
+        <option value="44" >
+Japanese
+        </option>
+        <option value="107" >
+Juice Bar
+        </option>
+        <option value="60" >
+Korean
+        </option>
+        <option value="85" >
+Liquor Store Deli
+        </option>
+        <option value="116" >
+Lunch Truck
+        </option>
+        <option value="15" >
+Mexican
+        </option>
+        <option value="76" >
+Middle Eastern
+        </option>
+        <option value="10" >
+Nightclub
+        </option>
+        <option value="70" >
+Pub/Tavern
+        </option>
+        <option value="11" >
+Pizza
+        </option>
+        <option value="33" >
+Seafood
+        </option>
+        <option value="77" >
+Spanish
+        </option>
+        <option value="65" >
+Steakhouse
+        </option>
+        <option value="21" >
+Sushi Bar
+        </option>
+        <option value="27" >
+Tavern
+        </option>
+        <option value="54" >
+Thai
+        </option>
+        <option value="67" >
+Vegan
+        </option>
+        <option value="38" >
+Vietnamese
+        </option>
+        <option value="9" >
+Wine Bar
+        </option>
+    </sic_id>
+
+    <feat>
+        <option
+            name=""
+            icon="" >
+Any Feature
+        </option>
+        <option
+            name="feat[sports]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/tv.gif" >
+Sports TV
+        </option>
+        <option
+            name="feat[inet]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/nt.gif" >
+Wireless Internet
+        </option>
+        <option
+            name="feat[live]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/lv.gif" >
+Live Music
+        </option>
+        <option
+            name="feat[dance]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/dn.gif" >
+Dancing
+        </option>
+        <option
+            name="feat[karaoke]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/nt.gif" >
+Karaoke
+        </option>
+        <option
+            name="feat[deliver]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/dl.gif" >
+Will Deliver
+        </option>
+        <option
+            name="feat[cater]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/ct.gif" >
+Catering
+        </option>
+        <option
+            name="feat[banquet]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/bq.gif" >
+Banquet Room
+        </option>
+        <option
+            name="feat[ocean]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/bq.gif" >
+Ocean
+        </option>
+        <option
+            name="feat[reservation]"
+            icon="http://www.sandiegorestaurantsandbars.com/ico/bq.gif" >
+Reservations
+        </option>
+    </feat>
+
+    <occasion>
+        <option value="gf_breakfast" >
+Breakfast
+        </option>
+        <option value="gf_brunch" >
+Sunday Brunch
+        </option>
+        <option value="gf_lunch" >
+Lunch
+        </option>
+        <option value="gf_dinner" >
+Dinner
+        </option>
+        <option value="gf_drinks" >
+Drinks
+        </option>
+        <option value="gf_happy_hr" >
+Happy Hour
+        </option>
+        <option value="gf_coffee" >
+Coffee
+        </option>
+        <option value="gf_cake" >
+Cake
+        </option>
+    </occasion>
+
+    <serve>
+        <option value="gf_date" >
+Meet a Date
+        </option>
+        <option value="gf_bus" >
+Meet for Business
+        </option>
+        <option value="gf_friend" >
+Meet a Friend
+        </option>
+        <option value="gf_solo" >
+Fly a Solo
+        </option>
+    </serve>
+
+</jointData>

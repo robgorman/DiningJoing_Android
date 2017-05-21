@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jointData>
+
+    <city>
+        <option value="" >
+Any Location
+        </option>
+        <option value="1" >
+Alpine
+        </option>
+        <option value="2" >
+Bankers Hill
+        </option>
+        <option value="3" >
+Bonita
+        </option>
+        <option value="4" >
+Campo
+        </option>
+        <option value="5" >
+Cardiff
+        </option>
+        <option value="6" >
+Carlsbad
+        </option>
+        <option value="7" >
+Chula Vista
+        </option>
+        <option value="8" >
+City Heights
+        </option>
+        <option value="9" >
+Clairmont Mesa
+        </option>
+        <option value="10" >
+College Area
+        </option>
+        <option value="11" >
+Coronado
+        </option>
+        <option value="12" >
+Del Mar
+        </option>
+        <option value="13" >
+El Cajon
+        </option>
+        <option value="14" >
+Encinitas
+        </option>
+        <option value="15" >
+Escondido
+        </option>
+        <option value="16" >
+Gaslamp
+        </option>
+        <option value="17" >
+Golden Hill
+        </option>
+        <option value="18" >
+Hillcrest
+        </option>
+        <option value="19" >
+Hotel Circle
+        </option>
+        <option value="20" >
+Imperial Beach
+        </option>
+        <option value="21" >
+Jamul
+        </option>
+        <option value="22" >
+Kearny Mesa
+        </option>
+        <option value="23" >
+Kensington
+        </option>
+        <option value="24" >
+La Jolla
+        </option>
+        <option value="25" >
+La Mesa
+        </option>
+        <option value="26" >
+Lakeside
+        </option>
+        <option value="27" >
+Lemon Grove 
+        </option>
+        <option value="28" >
+Leucadia
+        </option>
+        <option value="29" >
+Linda Vista
+        </option>
+        <option value="30" >
+Little Italy
+        </option>
+        <option value="31" >
+Logan Heights
+        </option>
+        <option value="32" >
+Mira Mesa
+        </option>
+        <option value="33" >
+Miramar
+        </option>
+        <option value="34" >
+Mission Beach
+        </option>
+        <option value="35" >
+Mission Gorge
+        </option>
+        <option value="36" >
+Mission Hills
+        </option>
+        <option value="37" >
+Mission Valley
+        </option>
+        <option value="38" >
+National City
+        </option>
+        <option value="39" >
+Normal Heights
+        </option>
+        <option value="40" >
+North Park
+        </option>
+        <option value="41" >
+Ocean Beach
+        </option>
+        <option value="42" >
+Oceanside
+        </option>
+        <option value="43" >
+Old Town
+        </option>
+        <option value="44" >
+Otay Mesa
+        </option>
+        <option value="45" >
+Pacific Beach
+        </option>
+        <option value="46" >
+Paradise Hills
+        </option>
+        <option value="47" >
+Pine Valley
+        </option>
+        <option value="48" >
+Point Loma
+        </option>
+        <option value="49" >
+Poway
+        </option>
+        <option value="50" >
+Rancho Bernardo
+        </option>
+        <option value="51" >
+Rancho Santa Fe
+        </option>
+        <option value="52" >
+San Carlos
+        </option>
+        <option value="53" >
+San Diego
+        </option>
+        <option value="54" >
+San Marcos
+        </option>
+        <option value="55" >
+San Ysidro
+        </option>
+        <option value="56" >
+Santee
+        </option>
+        <option value="57" >
+Scripps Ranch
+        </option>
+        <option value="58" >
+Seaport Village
+        </option>
+        <option value="59" >
+Shelter Island
+        </option>
+        <option value="60" >
+Solana Beach
+        </option>
+        <option value="61" >
+Sorrento Valley
+        </option>
+        <option value="62" >
+South Park
+        </option>
+        <option value="63" >
+Spring Valley
+        </option>
+        <option value="64" >
+Tecate
+        </option>
+        <option value="67" >
+Tierrasanta
+        </option>
+        <option value="65" >
+University City
+        </option>
+        <option value="66" >
+Vista
+        </option>
+    </city>
+
+</jointData>

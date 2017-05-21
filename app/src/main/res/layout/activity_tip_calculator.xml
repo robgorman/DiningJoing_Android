@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_skyline"
+    android:orientation="vertical"
+              android:focusableInTouchMode="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tip Calculator"
+        android:id="@+id/textView16"
+        android:textColor="@color/DJMaroon"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:layout_margin="20dp">
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/twentysp"
+            >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1a"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4sp"
+                    android:layout_marginRight="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView1a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4sp"
+                        android:text="Bill Amount"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editBillAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cursorVisible="false"
+                        android:focusable="true"
+                        android:imeOptions="actionDone"
+                        android:inputType="number|numberDecimal"
+                        android:autoText="false"
+                        android:layout_marginLeft="12dp">
+
+                        <requestFocus />
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2a"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="4sp"
+                    android:layout_marginRight="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false">
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout2b"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <SeekBar
+                            android:id="@+id/seekBillAmount"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:paddingTop="6sp"
+                            android:progressDrawable="@drawable/seekbar_progress"
+                            android:maxHeight="3dp"
+                            android:thumbTint="@color/Black"
+                            android:progressBackgroundTint="@color/Black"
+                            android:thumb="@drawable/black_ball"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1c"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4sp"
+                    android:layout_marginRight="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:clickable="false">
+
+                    <TextView
+                        android:id="@+id/textView1c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4sp"
+                        android:text="Tip Percent"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editTipPercent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:imeOptions="actionDone"
+                        android:inputType="number"
+                        android:layout_marginLeft="12dp">
+
+                        <requestFocus />
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2d"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="4sp"
+                    android:layout_marginRight="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout2d"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <SeekBar
+                            android:id="@+id/seekTipPercent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:paddingTop="6sp"
+                            android:maxHeight="3dp"
+                            android:progressDrawable="@drawable/seekbar_progress"
+                            android:thumbTint="@color/Black"
+                            android:thumb="@drawable/black_ball"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4sp"
+                    android:layout_marginRight="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4sp"
+                        android:text="Number People"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editNumberOfPeople"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:imeOptions="actionDone"
+                        android:inputType="number"
+                        android:layout_marginLeft="12dp">
+
+                        <requestFocus />
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="4sp"
+                    android:layout_marginRight="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <SeekBar
+                            android:id="@+id/seekNumberOfPeople"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:paddingTop="6sp"
+                            android:maxHeight="3dp"
+                            android:thumbTint="@color/Black"
+                            android:progressDrawable="@drawable/seekbar_progress"
+                            android:thumb="@drawable/black_ball"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4sp"
+                    android:layout_marginRight="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="Total Tip:"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4sp"
+                    android:layout_marginRight="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/editTotalTip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4sp"
+                    android:layout_marginRight="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:gravity="center_vertical"
+                        android:text="Per Person:"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4sp"
+                    android:layout_marginRight="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/editPerPerson"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:minHeight="130dp">
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

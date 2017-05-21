@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dining Joint</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="style_prompt">Choose a style</string>
+    <string name="twitter_login_message">To allow tweets from Dining Joint please obtain and enter a Twitter PIN according to the instructions below.</string>
+    <string name="twitter_get_pin">Get PIN From Twitter</string>
+    <string name="twitter_enter_pin">Enter PIN Below</string>
+    <string name="SignIn">Sign In</string>
+    <string name="twitter_hint_enter_pin">Enter PIN</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="find">Find</string>
+    <string name="nearby">Nearby</string>
+    <string name="shake_for_fortune">SHAKE FOR FORTUNE</string>
+    <string name="tip">Tip</string>
+    <string name="social">Social</string>
+    <string name="coupons">Coupons</string>
+    <string name="happy_hour">Happy Hour</string>
+    <string name="purpose">PURPOSE</string>
+    <string name="show_me_the">Show me the Best Joints To</string>
+    <string name="textfor">For</string>
+    <string name="in_the_area_of">In the area of</string>
+    <string name="serving">Serving</string>
+    <string name="occasion">OCCASION</string>
+    <string name="neighborhood">NEIGHBORHOOD</string>
+    <string name="cuisine">CUISINE</string>
+    <string name="limit_to_those_with">Limit to those with</string>
+    <string name="find_joints">FIND JOINTS</string>
+    <string name="title_activity_restaurant_list">RestaurantListActivity</string>
+    <string name="cuisine_label">Cuisine</string>
+    <string name="price">Price</string>
+    <string name="title_activity_restaurant_details_actiivty">RestaurantDetailsActiivty</string>
+    <string name="hours">HOURS:</string>
+    <string name="best_day_label">BEST DAY:</string>
+    <string name="best_dish_label">POPULAR:</string>
+    <string name="title_activity_social">SocialActivity</string>
+    <string name="connect_with_dj">Connect with Dining Joint</string>
+    <string name="title_activity_snap_chat">SnapChatActivity</string>
+    <string name="title_activity_coupons">CouponsActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="whats_going_on_today">What\'s going on Today?</string>
+
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search Joints By Name</string>
+    <string name="menu_search">Search</string>
+    <string name="title_activity_invite_card">InviteCardActivity</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="send_label">Send</string>
+
+
+    <string name="action_toggle">Toggle indicator</string>
+    <string name="action_add_item">Add item</string>
+    <string name="action_remove_item">Remove item</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_info">Photo info</string>
+    <string name="action_photo">View photo</string>
+
+
+    <string name="rotate_phone">Rotate phone for larger view</string>
+
+    <string name="facebook_app_id">281476418639687</string>
+    <string name="position_message">Position the logo below by dragging</string>
+    <string name="social_pics">Social Pics</string>
+    <string name="pics">Pics</string>
+    <string name="connect">Connect</string>
+
+</resources>

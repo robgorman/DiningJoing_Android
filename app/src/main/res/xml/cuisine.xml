@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jointData>
+
+    <sic_id>
+        <option value="" >
+Any Cuisine
+        </option>
+        <option value="43" >
+American
+        </option>
+        <option value="196" >
+Asian Fusion
+        </option>
+        <option value="40" >
+Bagels
+        </option>
+        <option value="2" >
+Bakery
+        </option>
+        <option value="36" >
+Bar
+        </option>
+        <option value="32" >
+Bar and Grill
+        </option>
+        <option value="12" >
+Barbecue
+        </option>
+        <option value="100" >
+Brewery
+        </option>
+        <option value="37" >
+Buffet
+        </option>
+        <option value="24" >
+Cafe
+        </option>
+        <option value="79" >
+Cajun
+        </option>
+        <option value="152" >
+Casino Restaurant
+        </option>
+        <option value="26" >
+Caterer
+        </option>
+        <option value="57" >
+Chicken
+        </option>
+        <option value="5" >
+Chinese
+        </option>
+        <option value="8" >
+Cocktail Lounge
+        </option>
+        <option value="18" >
+Coffee Shop
+        </option>
+        <option value="217" >
+Country Club
+        </option>
+        <option value="46" >
+Deli
+        </option>
+        <option value="7" >
+Diner
+        </option>
+        <option value="221" >
+Dinner Cruise
+        </option>
+        <option value="74" >
+Dinner Theater
+        </option>
+        <option value="3" >
+Doughnuts
+        </option>
+        <option value="45" >
+Ethnic
+        </option>
+        <option value="66" >
+French
+        </option>
+        <option value="19" >
+Frozen Yogurt
+        </option>
+        <option value="78" >
+German
+        </option>
+        <option value="59" >
+Greek
+        </option>
+        <option value="14" >
+Hamburger
+        </option>
+        <option value="192" >
+Hookah Lounge
+        </option>
+        <option value="123" >
+Hotel Restaurant
+        </option>
+        <option value="222" >
+Ice Cream
+        </option>
+        <option value="52" >
+Indian
+        </option>
+        <option value="6" >
+Italian
+        </option>
+        <option value="44" >
+Japanese
+        </option>
+        <option value="107" >
+Juice Bar
+        </option>
+        <option value="60" >
+Korean
+        </option>
+        <option value="85" >
+Liquor Store Deli
+        </option>
+        <option value="116" >
+Lunch Truck
+        </option>
+        <option value="15" >
+Mexican
+        </option>
+        <option value="76" >
+Middle Eastern
+        </option>
+        <option value="10" >
+Nightclub
+        </option>
+        <option value="70" >
+Pub/Tavern
+        </option>
+        <option value="11" >
+Pizza
+        </option>
+        <option value="33" >
+Seafood
+        </option>
+        <option value="77" >
+Spanish
+        </option>
+        <option value="65" >
+Steakhouse
+        </option>
+        <option value="21" >
+Sushi Bar
+        </option>
+        <option value="27" >
+Tavern
+        </option>
+        <option value="54" >
+Thai
+        </option>
+        <option value="67" >
+Vegan
+        </option>
+        <option value="38" >
+Vietnamese
+        </option>
+        <option value="9" >
+Wine Bar
+        </option>
+    </sic_id>
+
+</jointData>

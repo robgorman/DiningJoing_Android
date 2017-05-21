@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinearLayout0112"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+              android:background="@drawable/background_skyline">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graybox2"
+            android:layout_margin="8dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:id="@+id/textViewChoose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose a style:"
+                    android:textColor="@color/Black"
+                    android:textSize="8pt"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentLeft="false"
+                    android:layout_marginLeft="0dp"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginTop="55dp"
+                    android:layout_centerVertical="true"/>
+
+                <Spinner
+                    android:id="@+id/spinnerStyle"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:prompt="@string/style_prompt"
+                    android:layout_gravity="center_vertical|right"
+                    android:clickable="false"
+                    android:backgroundTint="@color/DJMaroon"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+
+                    android:layout_centerVertical="true"
+                    android:spinnerMode="dropdown"
+                    android:gravity="right"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graybox2"
+            android:layout_margin="8dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/textViewSendTo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Send To:"
+                    android:textColor="@color/Black"
+                    android:textSize="8pt"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:id="@+id/editTextSendTo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:singleLine="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentEnd="false"
+                    android:layout_toRightOf="@+id/textViewSendTo"
+                    android:ems="5"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="@color/DimGray"
+                    android:inputType="textEmailAddress"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graybox2"
+            android:layout_margin="8dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:id="@+id/textViewFrom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From:"
+                    android:textColor="@color/Black"
+                    android:textSize="8pt"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:id="@+id/editTextFrom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Your Name"
+                    android:singleLine="true"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toRightOf="@+id/textViewFrom"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/DimGray"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graybox2"
+            android:layout_margin="8dp"
+            >
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textViewYourEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37dp"
+                    android:text="Your Email:"
+                    android:textColor="@color/Black"
+                    android:textSize="8pt"
+                    android:layout_alignParentLeft="false"
+                    android:layout_marginLeft="0dp"
+                    android:layout_alignParentTop="false"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:id="@+id/editTextYourEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Your Email"
+                    android:singleLine="true"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toRightOf="@+id/textViewYourEmail"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/DimGray"
+                    android:inputType="textEmailAddress"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graybox2"
+            android:layout_margin="8dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:id="@+id/textViewMessage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Message:"
+                    android:textColor="@color/Black"
+                    android:textSize="8pt"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentStart="false"
+                    android:layout_marginTop="8dp"/>
+
+                <EditText
+                    android:id="@+id/editTextMessage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Message"
+                    android:singleLine="true"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_below="@+id/textViewMessage"
+                    android:layout_marginLeft="6dp"
+                    android:backgroundTint="@color/DimGray"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="Preview PostCard >>"
+            android:background="@drawable/red_button_statelist"
+            android:textColor="@color/White"
+            android:layout_weight="1"
+            android:paddingEnd="12dp"
+
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:maxHeight="60dp"
+            android:clickable="false"
+            android:minWidth="100dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/llspacer"
+            android:minHeight="50dp"
+            android:layout_weight="6">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

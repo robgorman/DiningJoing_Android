@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Show More Joints..."
+        android:id="@+id/textView15"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/Black"/>
+
+
+    <!-- Displays only when there are more items -->
+
+</LinearLayout>

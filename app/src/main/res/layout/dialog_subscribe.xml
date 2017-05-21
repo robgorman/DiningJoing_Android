@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SignupDialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="@drawable/dialog_background">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Subscribe"
+        android:id="@+id/textView23"
+        android:textColor="@color/Black"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Email To Receive Specials."
+        android:gravity="center_horizontal"
+        android:backgroundTint="@color/DarkBlue"
+        android:textColor="@color/White">
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/graybox2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+
+        <EditText
+            android:id="@+id/textEmailAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EMailLabel"
+            android:hint="Enter Email Address Here"
+            android:tag="mc.standard.email"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/DimGray"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SignupButtonGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EMailField"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/buttonSubscribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subscribe"
+            android:background="@drawable/red_button_statelist"
+            android:textColor="@color/White"
+            android:layout_marginRight="4dp">
+        </Button>
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/SubscribeButton"
+            android:layout_toRightOf="@+id/SubscribeButton"
+            android:text="Cancel"
+            android:background="@drawable/red_button_statelist"
+            android:textColor="@color/White"
+            android:layout_marginLeft="4dp">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

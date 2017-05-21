@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- http://www.stealthcopter.com/blog/2010/08/making-prettier-buttons-in-android-xml-rolloverselection-focus-effects-9patch-images-and-transparency/ -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/red_arrow_selected"  android:state_pressed="true"/>
+    <item android:drawable="@drawable/red_arrow"/>
+
+</selector>

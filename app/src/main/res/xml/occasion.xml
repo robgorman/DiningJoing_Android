@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jointData>
+
+    <occasion>
+        <option value="gf_breakfast" >
+Breakfast
+        </option>
+        <option value="gf_brunch" >
+Sunday Brunch
+        </option>
+        <option value="gf_lunch" >
+Lunch
+        </option>
+        <option value="gf_dinner" >
+Dinner
+        </option>
+        <option value="gf_drinks" >
+Drinks
+        </option>
+        <option value="gf_happy_hr" >
+Happy Hour
+        </option>
+        <option value="gf_coffee" >
+Coffee
+        </option>
+        <option value="gf_cake" >
+Cake
+        </option>
+    </occasion>
+
+</jointData>
